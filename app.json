@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "AlmascoPages",
+    "slug": "AlmascoPages",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "com.abegail.authsessiongoogle",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abegail.authsessiongoogle"
+    },
+    "android": {
+      "package": "com.abegail.authsessiongoogle",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "44fd3179-7343-45ef-9332-15642d9a9e1c"
+      }
+    }
+  }
+}
